@@ -1,0 +1,234 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+  color: #F2AC03;
+  text-decoration: none;
+}
+
+.container  {
+
+  position: relative;
+  width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.Header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Nav {
+  text-align: center;
+  color: #F2AC03;
+  font-size: 40px;
+  font-weight: bold;
+}
+.HomePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #F2AC03;
+  width:100%;
+}
+
+ .Headers {
+   color: #F2AC03;
+   font-size: 100px;
+   text-align: center;
+   margin-top: 200px;
+   font-style: italic;
+   font-weight: bold;
+ }
+
+ .Subs {
+     color: #F2AC03;
+     font-size: 70px;
+     text-align: center;
+     margin-top: 200px;
+     font-weight: 800;
+ }
+
+ .Paragraph {
+   font-size: 30px;
+   color: white;
+   text-align: left;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .Map {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid #F2AC03;
+   margin-top: 100px;
+  }
+
+ .yelp-review {
+   border: 5px solid #F2AC03;
+   margin-top: 100px;
+   padding-top:0px;
+
+ }
+
+ .PizzaContainer {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+
+ .Pizza {
+   position:  absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 100px;
+ }
+
+.MenuGrid {
+  display:grid;
+  grid-template-columns: auto;
+  font-size:40px;
+  text-align:left;
+}
+
+.PizzaLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.PizzaRight {
+  grid-column: 2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.MenuHeaders {
+  font-size: 25px;
+  color: #F2AC03;
+  font-weight: bold;
+}
+
+.PastaContainer {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.PastaLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.PastaRight {
+  grid-column: 2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.SandwichesContainer {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.SandwichesLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.SandwichesRight {
+  grid-column:2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.SaladContainer {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.SaladLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.SaladRight {
+  grid-column:2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.AppContainer {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.AppLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.AppRight {
+  grid-column:2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.CocktailsContainer {
+  margin-top: 100px;
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.CocktailsLeft {
+  grid-column:1/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+}
+
+.CocktailsRight {
+  grid-column:2/2;
+  color:white;
+  font-size: 18px;
+  width:70%;
+  text-align:left;
+}
